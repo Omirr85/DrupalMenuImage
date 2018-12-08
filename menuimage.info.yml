@@ -2,6 +2,7 @@ name: menuimage
 description: 'Provides field on Edit Menu Link form to upload an image.'
 core: 8.x
 dependencies:
-  menu: 'menu:menu'
+  core/jquery
+  core/drupalSettings
   image: 'drupal:image'
 type: module
